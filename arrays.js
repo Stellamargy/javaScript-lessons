@@ -1,6 +1,6 @@
 // primitive data types includes -string , number , boolean , undefined , null  , symbol .They point a single value.
 // However ,sometimes we usually need to store a collection of data,for this we need data structures.
-//Data structure is a means for associationg and organixing information -Arrays , objects
+//Data structure is a means for associationg and organizing information -Arrays , objects
 
 
 //What is an array?
@@ -123,5 +123,17 @@ console.log(fruits.splice(1))
 //EXTRA RESOURCES .
 // MDN WEBSITE
 //W3SCHOOL WEBSITE
+
+
+
+
+
+// const names= ["Stella" , "Margy" , " oloo" , "nabwire"];
+// const uppercaseNames=[]
+// for(const name of names){
+//    uppercaseNames.push(name.toUpperCase())
+// }
+
+// console.log(uppercaseNames)
 
 
