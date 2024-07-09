@@ -72,12 +72,26 @@ for (const key in student){
   }
 
 }
+const student={
+  firstName: "Stella",
+  secondName: "Margy",
+  age:24,
+  dream:"To utilize my potential to the fullest",
+  
+ philosophies :{
+    philosphy1:"Hard work pays",
+    philososphy2:{
+      selfLove: "Neverlook down upon yourself",
+      relationship:"Be kind to other people"
+    }
+  },
+}
 
 // RECURSION
 // is a function that calls itself
 function deepIteration(obj){
   for(const key in obj){
-    console.log(key)    // the top level keys
+    console.log(key)    // the top level keys 
     if(typeof obj[key]==="object"){
       deepIteration(obj[key])  // allows iteration in the nested objects
     }
@@ -112,20 +126,7 @@ for(const element of numbers){
 // objects
 // for ...in
 
-const student={
-  firstName: "Stella",
-  secondName: "Margy",
-  age:24,
-  dream:"To utilize my potential to the fullest",
-  
- philosophies :{
-    philosphy1:"Hard work pays",
-    philososphy2:{
-      selfLove: "Neverlook down upon yourself",
-      relationship:"Be kind to other people"
-    }
-  },
-}
+
 
 
 
